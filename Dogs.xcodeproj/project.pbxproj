@@ -11,6 +11,11 @@
 		F837CC4C2C2225CD001D5226 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837CC4B2C2225CD001D5226 /* ContentView.swift */; };
 		F837CC4E2C2225D1001D5226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F837CC4D2C2225D1001D5226 /* Assets.xcassets */; };
 		F837CC512C2225D1001D5226 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F837CC502C2225D1001D5226 /* Preview Assets.xcassets */; };
+		F85E86752C24E88F0099E5F0 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E86742C24E88F0099E5F0 /* OnBoardingView.swift */; };
+		F85E86772C24E8B00099E5F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E86762C24E8B00099E5F0 /* SettingsView.swift */; };
+		F85E86792C24EF9C0099E5F0 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E86782C24EF9C0099E5F0 /* ExtensionColor.swift */; };
+		F89890702C29CE8400EFD813 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F898906F2C29CE8400EFD813 /* CircleView.swift */; };
+		F8C450FE2C2434A300E64EED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C450FD2C2434A300E64EED /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F837CC4B2C2225CD001D5226 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F837CC4D2C2225D1001D5226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F837CC502C2225D1001D5226 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F85E86742C24E88F0099E5F0 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		F85E86762C24E8B00099E5F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F85E86782C24EF9C0099E5F0 /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
+		F898906F2C29CE8400EFD813 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F8C450FD2C2434A300E64EED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,9 @@
 		F837CC482C2225CD001D5226 /* Dogs */ = {
 			isa = PBXGroup;
 			children = (
-				F837CC492C2225CD001D5226 /* DogsApp.swift */,
-				F837CC4B2C2225CD001D5226 /* ContentView.swift */,
+				F8C450FC2C24347100E64EED /* App */,
+				F8C450FB2C24346000E64EED /* Views */,
+				F85E867A2C24EFA60099E5F0 /* Color */,
 				F837CC4D2C2225D1001D5226 /* Assets.xcassets */,
 				F837CC4F2C2225D1001D5226 /* Preview Content */,
 			);
@@ -65,6 +76,34 @@
 				F837CC502C2225D1001D5226 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F85E867A2C24EFA60099E5F0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F85E86782C24EF9C0099E5F0 /* ExtensionColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		F8C450FB2C24346000E64EED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8C450FD2C2434A300E64EED /* HomeView.swift */,
+				F85E86742C24E88F0099E5F0 /* OnBoardingView.swift */,
+				F85E86762C24E8B00099E5F0 /* SettingsView.swift */,
+				F837CC4B2C2225CD001D5226 /* ContentView.swift */,
+				F898906F2C29CE8400EFD813 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8C450FC2C24347100E64EED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F837CC492C2225CD001D5226 /* DogsApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85E86772C24E8B00099E5F0 /* SettingsView.swift in Sources */,
+				F8C450FE2C2434A300E64EED /* HomeView.swift in Sources */,
+				F85E86752C24E88F0099E5F0 /* OnBoardingView.swift in Sources */,
 				F837CC4C2C2225CD001D5226 /* ContentView.swift in Sources */,
 				F837CC4A2C2225CD001D5226 /* DogsApp.swift in Sources */,
+				F89890702C29CE8400EFD813 /* CircleView.swift in Sources */,
+				F85E86792C24EF9C0099E5F0 /* ExtensionColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
